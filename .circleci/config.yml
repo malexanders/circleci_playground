@@ -35,3 +35,7 @@ jobs:
 
       # run tests!
       - run: echo "hello world" # run the `echo` command
+workflows:
+build_and_test:
+  jobs:
+    - build
